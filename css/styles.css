@@ -1,0 +1,77 @@
+.navbar-brand{padding-left: 10px;}
+
+.navbar-nav{padding-right: 10px;}
+
+h1{font-family: "Montserrat", "sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+  }
+
+h2{font-family: "Montserrat";  font-size: 3rem; line-height: 1.5; font-weight: bold;}
+
+h3{font-family: "Montserrat", "sans-serif" ; font-size: 2rem; font-weight: bold;}
+
+.container-fluid{padding: 3% 15% 10%; padding-top: 2%}
+
+.white-section{background-color: #fff;}
+
+.colored-section{background-color: #ff4c68; color: white;}
+
+body{font-family: "Montserrat";}
+
+.navbar-brand{font-size:2.5rem; font-weight: bold; padding-left: 0; font-family: "Ubuntu"}
+
+.nav-link{font-weight: bold; font-size: 1.1rem;}
+
+.navbar{padding-bottom: 4.5rem;}
+
+.nav-item{padding: 0 18px;}
+
+button{margin-top: 25px; margin-right: 13px;}
+
+.t-image{transform: rotate(25deg); position: absolute; width: 23%; right: 25%;}
+
+@media screen and (max-width: 900px)
+{
+  .t-image{position: static; transform: rotate(0); width: 70%; vertical-align: middle; padding-top: 30px;}
+  #title{text-align: center;}
+}
+
+.features-box{text-align: center; padding: 4.5%}
+
+p{ color: #8f8f8f}
+
+.icon{color: #ef8172; margin-bottom: 1rem; transition-duration: 0.3s}
+
+.icon:hover{color:#ff4c68;}
+
+#features{padding: 5% 15%; position: relative;}
+
+#testimonials{background-color: #ef8172; text-align: center;}
+
+#press{background-color: #ef8172; text-align: center; padding: 20px 20px 50px; }
+
+.testimonial-text{margin-left: 120px; margin-right: 120px;}
+
+.logo{width: 15%; margin: 20px 20px 50px;}
+
+.carousel-item{ padding: 5% 15%;   }
+
+.testimonial-img{border-radius: 100%; height: 120px; width: 120px; margin: 20px 10px 0 0;}
+
+#pricing{padding: 100px; text-align: center; }
+
+.prcie-tag{padding: 3% 2%;}
+
+#cta{ font-family: "Montserrat"; text-align: center; padding: 5% 15%; line-height: 1.5rem;}
+
+.btn-2{margin-top: 60px;margin-right: 30px;}
+
+#footer{color: grey; text-align: center; padding: 7% 15%;}
+
+.f-sec{padding-right: 4%;}
+
+.social{margin-bottom: 25px;}
+
+.no-show{visibility: hidden;}
